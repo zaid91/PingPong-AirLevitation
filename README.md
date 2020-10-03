@@ -5,6 +5,6 @@ In this project we are using a NI myrio microcontroller to build a control syste
 which controls the location of the ping pong ball inside a acrylic tube. 
 
 We have used a centrifugal fan as the levitating medium to contorl the ball and
-to measure the distance of the ball we used a HC-SR04 ultrasonic sensor.
+to measure the distance of the ball using an Ultrasonic sensor.
 
-We have attached two labVIEW VI for the ultrasonic sensor and the Fan which run on FPGA along with the complete project file for the mentioned system. 
+We have attached two labVIEW FPGA based program for the ultrasonic sensor and the Fan which runs on the main VI and controlled by the PID VI.
